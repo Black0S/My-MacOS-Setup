@@ -1,0 +1,204 @@
+# ────────────────────────────────────────────────
+# STARSHIP THEME: NOIR ÉTHÉRÉ ∞ (CINEMATIC CLEAN)
+# ────────────────────────────────────────────────
+
+format = """
+[](fg:#202020)\
+[   N O I R  É T H É R É  ∞ ](bg:#202020 fg:#e6e6e6 bold)\
+[](fg:#202020 bg:#181818)\
+$os$hostname$directory\
+[](fg:#181818 bg:#121212)\
+$git_branch$git_status\
+[](fg:#121212 bg:#0e0e0e)\
+$nodejs$rust$python$golang$php$java$kotlin$dart$lua$docker_context$aws$gcloud$package$conda$nix_shell$kubernetes\
+[](fg:#0e0e0e bg:#0a0a0a)\
+$memory_usage$battery$cmd_duration$jobs$time\
+[](fg:#0a0a0a)\
+\n$character
+"""
+
+# ────────────────────────────────
+# OS / HOST
+# ────────────────────────────────
+[os]
+style = "fg:#9aa0a6 bg:#181818"
+format = "[  ]($style)"
+
+[hostname]
+format = "[  $hostname ](fg:#888888 bg:#181818)"
+ssh_only = false
+disabled = false
+
+# ────────────────────────────────
+# DIRECTORY
+# ────────────────────────────────
+[directory]
+style = "fg:#e8e8e8 bg:#181818 bold"
+format = "[ 󰝰  $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+home_symbol = ""
+read_only = " 󰌾"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+"Desktop" = "󰟡 "
+"Github" = " "
+"Videos" = "󰕧 "
+
+# ────────────────────────────────
+# GIT
+# ────────────────────────────────
+[git_branch]
+symbol = ""
+style = "fg:#a5b0c5 bg:#121212 bold"
+format = "[ $symbol $branch ]($style)"
+
+[git_status]
+style = "fg:#9a9a9a bg:#121212"
+format = "[$all_status$ahead_behind]($style)"
+staged = " "
+untracked = " "
+modified = " "
+deleted = " "
+conflicted = " "
+
+# ────────────────────────────────
+# LANGUAGES / FRAMEWORKS
+# ────────────────────────────────
+[nodejs]
+symbol = ""
+style = "fg:#a8dca0 bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[rust]
+symbol = ""
+style = "fg:#d7a3d7 bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[python]
+symbol = ""
+style = "fg:#b9b4ff bg:#0e0e0e"
+format = "[ $symbol $version ($virtualenv) ]($style)"
+python_binary = "python3"
+
+[golang]
+symbol = ""
+style = "fg:#88b9ff bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[php]
+symbol = ""
+style = "fg:#e9d48a bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[java]
+symbol = ""
+style = "fg:#e09172 bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[kotlin]
+symbol = ""
+style = "fg:#b08dff bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[dart]
+symbol = ""
+style = "fg:#6ad5c9 bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[lua]
+symbol = ""
+style = "fg:#7abaff bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+# ────────────────────────────────
+# CLOUD / ENVIRONNEMENTS / CONTAINERS
+# ────────────────────────────────
+[docker_context]
+symbol = ""
+style = "fg:#6ad5c9 bg:#0e0e0e"
+format = "[ $symbol $context ]($style)"
+
+[aws]
+symbol = ""
+style = "fg:#f9e2af bg:#0e0e0e"
+format = "[ $symbol ($profile) ]($style)"
+
+[gcloud]
+symbol = ""
+style = "fg:#89b4fa bg:#0e0e0e"
+format = "[ $symbol ($account) ]($style)"
+
+[conda]
+symbol = ""
+style = "fg:#a6e3a1 bg:#0e0e0e"
+format = "[ $symbol $environment ]($style)"
+
+[package]
+symbol = ""
+style = "fg:#b5b5b5 bg:#0e0e0e"
+format = "[ $symbol $version ]($style)"
+
+[nix_shell]
+format = "[  Nix ](fg:#94a7c6 bg:#0e0e0e)"
+disabled = false
+
+[kubernetes]
+symbol = "󱃾"
+style = "fg:#7aa2f7 bg:#0e0e0e"
+format = "[ $symbol ($context) ]($style)"
+disabled = false
+
+# ────────────────────────────────
+# SYSTEM METRICS
+# ────────────────────────────────
+[memory_usage]
+symbol = ""
+style = "fg:#a0a0a0 bg:#0a0a0a"
+format = "[ $symbol $ram_pct ]($style)"
+threshold = 0
+
+[battery]
+disabled = false
+full_symbol = " "
+charging_symbol = " "
+discharging_symbol = " "
+unknown_symbol = " "
+format = "[ $symbol$percentage ]($style)"
+
+[[battery.display]]
+threshold = 10
+style = "fg:#ff6b81"
+[[battery.display]]
+threshold = 30
+style = "fg:#f9e2af"
+[[battery.display]]
+threshold = 100
+style = "fg:#a6e3a1"
+
+[cmd_duration]
+min_time = 250
+format = "[  $duration ](fg:#9aa0a6 bg:#0a0a0a)"
+
+[jobs]
+symbol = " "
+style = "fg:#a0a0a0 bg:#0a0a0a"
+threshold = 1
+
+[time]
+disabled = false
+time_format = "%H:%M:%S"
+style = "fg:#b8b8b8 bg:#0a0a0a bold"
+format = "[  $time ]($style)"
+
+# ────────────────────────────────
+# PROMPT CHARACTER
+# ────────────────────────────────
+[character]
+success_symbol = "[❯](bold fg:#e6e6e6)"
+error_symbol = "[❯](bold fg:#ff6b81)"
+vicmd_symbol = "[❮](bold fg:#6ad5c9)"

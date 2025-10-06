@@ -1,0 +1,45 @@
+# ────────────────────────────────
+# Ghostty Theme: Noir Éthéré ∞
+# ────────────────────────────────
+
+# Font settings
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 13
+
+# Background & transparency
+background = #0a0a0a
+background-opacity = 0.75
+background-blur = 50
+
+# Window behavior
+window-decoration = true
+window-inherit-working-directory = true
+
+# Mouse
+mouse-hide-while-typing = true
+copy-on-select = true
+
+# Colors — Noir Éthéré ∞
+foreground = #e6e6e6
+cursor-color = #d0d0d0
+cursor-text = #0a0a0a
+selection-background = #1c1c1c
+selection-foreground = #e6e6e6
+
+# ANSI Palette — harmonisée avec Starship
+palette = 0=#0a0a0a
+palette = 1=#ff6b81
+palette = 2=#8cd17d
+palette = 3=#e3c26f
+palette = 4=#6fa4ff
+palette = 5=#c792ea
+palette = 6=#6ad5c9
+palette = 7=#d0d0d0
+palette = 8=#1c1c1c
+palette = 9=#ff7b91
+palette = 10=#9fe38c
+palette = 11=#f0d78a
+palette = 12=#7cb4ff
+palette = 13=#d8a4f0
+palette = 14=#7de3d4
+palette = 15=#f5f5f5
