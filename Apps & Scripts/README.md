@@ -1,11 +1,13 @@
-I use Home Brew on mac to install my apps et scripts. A centrenlise point for everythings.
+# Homebrew Usage on macOS
 
-Install homebrew mac :
+I use **Homebrew** on macOS to install all my apps and scripts. It serves as a **centralized point for managing everything**, making installation and maintenance much easier.
+
+## Install homebrew mac :
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-My apps:
+### Apps that I use:
 * [alienator88-sentinel](https://github.com/alienator88/Sentinel)
 * [cherry-studio](https://github.com/CherryHQ/cherry-studio)
 * [iina](https://github.com/iina/iina)
@@ -23,29 +25,36 @@ My apps:
 * [vesktop](https://github.com/Vencord/Vesktop)
 * [zen](https://github.com/zen-browser/desktop)
 
-Apps :
+#### Install :
 
-```brew install --cask alienator88-sentinel cherry-studio iina keycastr loop orbstack raycast visual-studio-code applite ghostty keka keyclu lulu pearcleaner vesktop zen```
+```
+brew install --cask alienator88-sentinel cherry-studio iina keycastr loop orbstack raycast visual-studio-code applite ghostty keka keyclu lulu pearcleaner vesktop zen
+```
 
-Scripts :
+### Scripts that I use :
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 * [ffmpeg](https://ffmpeg.org/)
 * [starship](https://starship.rs/)
 * [nushell](https://www.nushell.sh/)
 * [btop](https://github.com/aristocratos/btop)
 
-Scripts :
+#### Install :
 
-```brew install yt-dlp ffmpeg starship nushell btop```
+```
+brew install yt-dlp ffmpeg starship nushell btop
+```
 
-Important i use '''Nerd Fonts''' for the support of custom Icons, you will need to download nerd fonts install and use it in the vscode to be able to see the icon if you modify the code properly.
+# Nerd Fonts Configuration for VSCode and Terminal
 
-Also you should intall nerd fonts for having a proper starfish terminal like mine.
+**Important:** I use **Nerd Fonts** to support custom icons. To properly view the icons when modifying the code, you will need to:
 
-Personnaly my fav Font are '''Jet Brains''' Font but the path version with icons : link : https://www.nerdfonts.com/#home
+1. Download Nerd Fonts from [Nerd Fonts Official Website](https://www.nerdfonts.com/#home).  
+2. Install the font on your system.  
+3. Configure VSCode to use the installed font.  
 
-If you download and install the Jet Brains Nerd Fonts like the one i chose the confis should  work on theme sefl without any modif.
+Additionally, installing Nerd Fonts is necessary to have a proper **Starfish-style terminal** like mine.  
 
-I configure everything to be able to use nushell as my default term.
+**Recommended Font:**  
+My personal favorite is **JetBrains Nerd Font** (patched version with icons). If you download and install the JetBrains Nerd Font that I use, the configuration should work out-of-the-box without any modifications.  
 
-orbstack
+Finally, I have configured everything to use **NuShell** as my default terminal.
