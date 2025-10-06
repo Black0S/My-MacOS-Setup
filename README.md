@@ -1,4 +1,4 @@
-# My macOS Terminal Setup: Noir Éthéré ∞
+# My Mac Terminal & Os Setup: Noir Éthéré ∞
 
 A **cinematic, dark, and developer-friendly terminal environment** built with **NuShell**, **Zsh**, **Starship**, **Homebrew**, and **Nerd Fonts**, fully optimized for macOS.  
 
