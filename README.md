@@ -28,6 +28,7 @@ Includes a curated set of **highly useful apps and scripts**, configured to run 
 * [pearcleaner](https://github.com/alienator88/Pearcleaner)
 * [vesktop](https://github.com/Vencord/Vesktop)
 * [zen](https://github.com/zen-browser/desktop)
+* [brave](https://github.com/brave/brave-browser)
 
 ## Scripts that I use :
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp)
