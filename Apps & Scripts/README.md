@@ -24,11 +24,12 @@ I use **Homebrew** on macOS to install all my apps and scripts. It serves as a *
 * [pearcleaner](https://github.com/alienator88/Pearcleaner)
 * [vesktop](https://github.com/Vencord/Vesktop)
 * [zen](https://github.com/zen-browser/desktop)
+* [brave](https://github.com/brave/brave-browser)
 
 #### Install :
 
 ```
-brew install --cask alienator88-sentinel cherry-studio iina keycastr loop orbstack raycast visual-studio-code applite ghostty keka keyclu lulu pearcleaner vesktop zen
+brew install --cask alienator88-sentinel cherry-studio iina keycastr loop orbstack raycast visual-studio-code applite ghostty keka keyclu lulu pearcleaner vesktop zen brave-browser
 ```
 
 ### Scripts that I use :
