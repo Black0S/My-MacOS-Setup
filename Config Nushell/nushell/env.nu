@@ -1,7 +1,7 @@
 # env.nu
 #
 # Installed by:
-# version = "0.107.0"
+# version = "0.108.0"
 #
 # Previously, environment variables were typically configured in `env.nu`.
 # In general, most configuration can and should be performed in `config.nu`
@@ -16,12 +16,8 @@
 #
 # You can remove these comments if you want or leave
 # them for future reference.
-# ────────────────────────────────
 
-#PATHS
-# Homebrew
-path add "/opt/homebrew/bin"
-path add "/opt/homebrew/sbin"
-
-# OrbStack Docker / VM
-path add "/Users/tao/.orbstack/bin"
+# ----
+# Nushell Show Banner
+# ----
+$env.config.show_banner = false
