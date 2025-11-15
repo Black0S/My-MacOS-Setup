@@ -1,2 +1,9 @@
-# On charge Starship pour Zsh (si tu utilises Starship)
+# ----
+# Shatrip Loading for Zsh
+# ----
 eval "$(starship init zsh)"
+
+# ----
+# Nushell Startup
+# ----
+exec nu
