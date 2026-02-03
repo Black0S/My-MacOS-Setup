@@ -17,6 +17,7 @@ Includes a curated set of **highly useful apps and scripts**, configured to run 
 * [adobe-downloader](https://github.com/X1a0He/Adobe-Downloader)
 * [iina](https://github.com/iina/iina)
 * [keycastr](https://github.com/keycastr/keycastr)
+* [coteditor](https://github.com/coteditor/CotEditor)
 * [orbstack](https://github.com/orbstack/orbstack)
 * [raycast](https://www.raycast.com/)
 * [visual-studio-code](https://code.visualstudio.com/)
