@@ -14,9 +14,9 @@ Includes a curated set of **highly useful apps and scripts**, configured to run 
 ## Apps that I use:
 * [alienator88-sentinel](https://github.com/alienator88/Sentinel)
 * [cherry-studio](https://github.com/CherryHQ/cherry-studio)
+* [adobe-downloader](https://github.com/X1a0He/Adobe-Downloader)
 * [iina](https://github.com/iina/iina)
 * [keycastr](https://github.com/keycastr/keycastr)
-* [loop](https://github.com/MrKai77/Loop)
 * [orbstack](https://github.com/orbstack/orbstack)
 * [raycast](https://www.raycast.com/)
 * [visual-studio-code](https://code.visualstudio.com/)
