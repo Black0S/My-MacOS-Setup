@@ -1,26 +1,63 @@
-# My Mac Os Setup
+#  macOS Setup
 
-Includes a curated set of **highly useful apps**, configured to run **smoothly and efficiently**—everything minimal, fast, and streamlined without any unnecessary bloat.
-
----
-
-<img src="Screenshots/CleanShot 2025-10-07 at 01.22.45@2x.png">
-<img src="Screenshots/CleanShot 2025-10-07 at 00.40.05@2x.png">
+A carefully curated macOS environment focused on **performance**, **minimalism**, and **workflow efficiency**.  
+Every application listed below is intentionally chosen to remain **lightweight, fast, and reliable**.
 
 ---
 
-## Apps that I use:
-* [alienator88-sentinel](https://github.com/alienator88/Sentinel)
-* [cherry-studio](https://github.com/CherryHQ/cherry-studio)
-* [adobe-downloader](https://github.com/X1a0He/Adobe-Downloader)
-* [iina](https://github.com/iina/iina)
-* [coteditor](https://github.com/coteditor/CotEditor)
-* [orbstack](https://github.com/orbstack/orbstack)
-* [visual-studio-code](https://code.visualstudio.com/)
-* [ghostty](https://github.com/ghostty-org/ghostty)
-* [keyclu](https://github.com/Anze/KeyCluCask/)
-* [lulu](https://github.com/objective-see/LuLu)
-* [dns-easy-switcher](https://github.com/glinford/dns-easy-switcher)
-* [pearcleaner](https://github.com/alienator88/Pearcleaner)
-* [vesktop](https://github.com/Vencord/Vesktop)
-* [zen](https://github.com/zen-browser/desktop)
+## 🔐 Security & Privacy
+
+| Name | Description | Link |
+|------|-------------|------|
+| **Sentinel** | Controls persistence mechanisms and startup items to prevent unwanted background processes. | [GitHub](https://github.com/alienator88/Sentinel) |
+| **LuLu** | Lightweight macOS firewall that blocks unknown outgoing network connections. | [GitHub](https://github.com/objective-see/LuLu) |
+
+---
+
+## 🛠 Utilities & System Tools
+
+| Name | Description | Link |
+|------|-------------|------|
+| **Adobe Downloader** | Downloads official Adobe installers without Creative Cloud overhead. | [GitHub](https://github.com/X1a0He/Adobe-Downloader) |
+| **Pearcleaner** | Thorough app uninstaller removing leftovers and hidden files. | [GitHub](https://github.com/alienator88/Pearcleaner) |
+| **DNS Easy Switcher** | Quickly switch DNS providers directly from the macOS menu bar. | [GitHub](https://github.com/glinford/dns-easy-switcher) |
+| **KeyClu** | Displays all available keyboard shortcuts for the active application. | [GitHub](https://github.com/Anze/KeyCluCask/) |
+
+---
+
+## 💻 Development Environment
+
+| Name | Description | Link |
+|------|-------------|------|
+| **VSCodium** | Open-source build of VS Code with telemetry fully removed. | [GitHub](https://github.com/VSCodium/vscodium) |
+| **CotEditor** | Native, lightweight text editor for macOS with syntax highlighting. | [GitHub](https://github.com/coteditor/CotEditor) |
+| **OrbStack** | Fast and efficient Docker & Linux VM environment for macOS. | [GitHub](https://github.com/orbstack/orbstack) |
+| **Ghostty** | Modern, GPU-accelerated terminal emulator focused on performance. | [GitHub](https://github.com/ghostty-org/ghostty) |
+
+---
+
+## 🎬 Media & Communication
+
+| Name | Description | Link |
+|------|-------------|------|
+| **IINA** | Modern macOS media player built on mpv with native UI support. | [GitHub](https://github.com/iina/iina) |
+| **Vesktop** | Lightweight Discord client focused on performance and customization. | [GitHub](https://github.com/Vencord/Vesktop) |
+
+---
+
+## 🌍 Web
+
+| Name | Description | Link |
+|------|-------------|------|
+| **Zen Browser** | Privacy-focused, minimal web browser designed for focus and speed. | [GitHub](https://github.com/zen-browser/desktop) |
+
+---
+
+## ✨ Setup Philosophy
+
+- ⚡ Performance-first
+- 🧼 Minimal & distraction-free
+- 🔒 Privacy & security conscious
+- 🛠 Built for developers and power users
+
+> A macOS setup designed to stay out of the way and let you focus on what matters.
