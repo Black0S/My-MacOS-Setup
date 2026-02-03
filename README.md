@@ -25,7 +25,7 @@ Includes a curated set of **highly useful apps and scripts**, configured to run 
 * [keka](github.com/aonez/Keka)
 * [keyclu](https://github.com/Anze/KeyCluCask/)
 * [lulu](https://github.com/objective-see/LuLu)
-* [dns-easy-switcher]([https://github.com/glinford/dns-easy-switcher)
+* [dns-easy-switcher](https://github.com/glinford/dns-easy-switcher)
 * [pearcleaner](https://github.com/alienator88/Pearcleaner)
 * [vesktop](https://github.com/Vencord/Vesktop)
 * [zen](https://github.com/zen-browser/desktop)
