@@ -22,6 +22,7 @@ Every application listed below is intentionally chosen to remain **lightweight, 
 | **Pearcleaner** | Thorough app uninstaller removing leftovers and hidden files. | [GitHub](https://github.com/alienator88/Pearcleaner) |
 | **DNS Easy Switcher** | Quickly switch DNS providers directly from the macOS menu bar. | [GitHub](https://github.com/glinford/dns-easy-switcher) |
 | **KeyClu** | Displays all available keyboard shortcuts for the active application. | [GitHub](https://github.com/Anze/KeyCluCask/) |
+| **Keka** | Fast, lightweight file archiver for macOS supporting ZIP, 7Z, TAR, GZIP and more, with strong AES encryption options. | [GitHub](https://github.com/aonez/Keka) |
 
 ---
 
